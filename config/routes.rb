@@ -6,6 +6,6 @@ Rails.application.routes.draw do
 
   get "/home" => "pages#index"
   get "/home/:message" => "pages#message"
-  get "/home/message" => "pages#message"
-  
+  get "/home/send_message" => "pages#message"
+  post "/home/send_message" => "pages#message"
 end
