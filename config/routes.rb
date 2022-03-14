@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "/home" => "pages#index"
   get "/home/:message" => "pages#message"
   get "/home/message" => "pages#message"
+  
 end
